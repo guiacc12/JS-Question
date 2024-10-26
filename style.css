@@ -1,0 +1,47 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #4b045f;
+    /* Centraliza tudo no centro linha 5 a 9*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: rgb(203, 242, 241);
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px rgb(120, 203, 255);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+body h1 {
+    color: #000000;
+    font-size: 32px;
+}
+
+body h2 {
+    color: #4b045f;
+    text-shadow: 4px 4px 5px #ffffff52;
+    font-size: 28px;
+}
+
+.option-btn {
+    background-color: #9042d8;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    margin: 5px 0px;
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #0f9d26;
+}
+
+
